@@ -1,4 +1,4 @@
-package com.poly.thi_ph51025_2504
+package com.poly.thi_ph51025
 
 data class MonThi(
     val id: String,

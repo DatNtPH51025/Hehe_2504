@@ -14,7 +14,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.poly.thi_ph51025.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Thi_PH51025_2504">

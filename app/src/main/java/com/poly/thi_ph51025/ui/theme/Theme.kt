@@ -1,4 +1,4 @@
-package com.poly.thi_ph51025_2504.ui.theme
+package com.poly.thi_ph51025.ui.theme
 
 import android.app.Activity
 import android.os.Build

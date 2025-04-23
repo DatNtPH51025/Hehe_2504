@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Thi_PH51025_2504"
+rootProject.name = "Thi_PH51025"
 include(":app")
  

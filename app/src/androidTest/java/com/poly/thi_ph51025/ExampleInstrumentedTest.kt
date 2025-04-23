@@ -1,4 +1,4 @@
-package com.poly.thi_ph51025_2504
+package com.poly.thi_ph51025
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

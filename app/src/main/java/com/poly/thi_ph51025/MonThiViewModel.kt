@@ -1,4 +1,4 @@
-package com.poly.thi_ph51025_2504
+package com.poly.thi_ph51025
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -57,7 +57,5 @@ class MonThiViewModel : ViewModel() {
         _selectMonThi.value = null
     }
 }
-
-
 //b5
 
