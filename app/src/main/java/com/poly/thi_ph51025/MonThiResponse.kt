@@ -21,5 +21,4 @@ fun MonThiResponse.toMonThi(): MonThi {
         caThi = this.caThi,
     )
 }
-
 //b2

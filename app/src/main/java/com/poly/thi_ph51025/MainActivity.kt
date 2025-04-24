@@ -82,7 +82,7 @@ fun DetailDialog(
             ) {
                 Column {
                     Text(
-                        text = "Môn thi: " +MonThi.monThi,
+                        text = "Môn thi: " + MonThi.monThi,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
@@ -114,7 +114,11 @@ fun DetailDialog(
             }
         },
         confirmButton = {
-            TextButton(onClick = onDismiss) {
+            TextButton(onClick = onDismiss,
+                colors = androidx.compose.material.ButtonDefaults.buttonColors(
+                    backgroundColor = Color.Red,
+                )
+            ) {
                 Text("Close")
             }
         }

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.poly.thi_ph51025_2504"
+    namespace = "com.poly.thi_ph51025"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.poly.thi_ph51025_2504"
+        applicationId = "com.poly.thi_ph51025"
         minSdk = 30
         targetSdk = 34
         versionCode = 1

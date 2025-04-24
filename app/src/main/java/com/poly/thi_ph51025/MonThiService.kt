@@ -11,5 +11,4 @@ interface MonThiService {
     @GET("MonThi/{id}")
     suspend fun getDetail(@Path("id") id: String): Response<MonThiResponse>
 }
-
-//b4
+//b3

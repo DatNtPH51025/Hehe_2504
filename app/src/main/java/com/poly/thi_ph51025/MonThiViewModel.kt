@@ -17,10 +17,10 @@ class MonThiViewModel : ViewModel() {
     val SLMonThi: MutableLiveData<MonThi?> = _selectMonThi
 
     init {
-        getXeMay()
+        getMonThi()
     }
 
-    fun getXeMay() {
+    fun getMonThi() {
         viewModelScope.launch {
             try {
                 val response = RetrofitService().monThiService.getLit()
@@ -30,7 +30,7 @@ class MonThiViewModel : ViewModel() {
                     _monThiList.postValue(emptyList())
                 }
             } catch (e: Exception) {
-                Log.e("XeMayViewModel", "getXeMay: $e")
+                Log.e("MonThiViewModel", "getMonThi: $e")
                 _monThiList.value = emptyList()
             }
         }
